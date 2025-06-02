@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(27, 26, 26);
+    color: white;a
+
+a { 
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: \;
+    margin: 50px;
+}
+
+h1 {
+    font-weight: 900;
+    margin: 50px;
+}
+
+hr{
+    margin: 50px;
+}
+
+td{
+    border: 2px solid;
+}
+th{
+    border: 2px solid;
+}
+
+
+
+
+
+img{
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .text {
+    max-width: 600px; /* optional: limits the text width */
+  }
+  
+  .image img {
+    height: 250px;
+    width: auto; /* keeps aspect ratio */
+    display: block;
+  }
+  
+
+.text{
+    font-size: 22px;
+    max-width: 4000px;
+}
+
+
+
+
+/* Another css for better look */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.image-side {
+    flex: 1;
+    background: url('/mnt/data/6d2cdadc-e0f6-4341-855e-b459dcfe6138.png') no-repeat center;
+    background-size: cover;
+}
+
+.form-side {
+    flex: 1;
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password button {
+    background-color: transparent;
+    color: #ddd;
+    border: 1px solid #666;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forgot-password button:hover {
+    background-color: #444;
+}
